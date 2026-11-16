@@ -1,0 +1,3603 @@
+{
+  "ultima_actualizacion": "2026-11-16 00:52:01",
+  "estado_apis": {
+    "nasa_power": "ONLINE",
+    "usgs_fdsn": "ONLINE"
+  },
+  "sismos_recientes": [
+    {
+      "lugar": "14 km SW of Roncesvalles, Colombia",
+      "magnitud": 4.4,
+      "fecha": "2026-11-13 20:01",
+      "horas_atras": 52.8,
+      "lat": 3.9065,
+      "lon": -75.6814,
+      "profundidad_km": 9.7
+    },
+    {
+      "lugar": "9 km WSW of Chaparral, Colombia",
+      "magnitud": 4.5,
+      "fecha": "2026-11-13 19:43",
+      "horas_atras": 53.1,
+      "lat": 3.6793,
+      "lon": -75.5584,
+      "profundidad_km": 10.0
+    },
+    {
+      "lugar": "24 km NNW of Rioblanco, Colombia",
+      "magnitud": 5.4,
+      "fecha": "2026-11-03 09:13",
+      "horas_atras": 303.6,
+      "lat": 3.7386,
+      "lon": -75.7198,
+      "profundidad_km": 10.0
+    },
+    {
+      "lugar": "20 km NNW of Rioblanco, Colombia",
+      "magnitud": 4.3,
+      "fecha": "2026-10-30 07:27",
+      "horas_atras": 401.4,
+      "lat": 3.6895,
+      "lon": -75.7328,
+      "profundidad_km": 10.0
+    },
+    {
+      "lugar": "44 km SW of Sipí, Colombia",
+      "magnitud": 4.3,
+      "fecha": "2026-10-26 04:25",
+      "horas_atras": 500.4,
+      "lat": 4.3227,
+      "lon": -76.8709,
+      "profundidad_km": 84.3
+    },
+    {
+      "lugar": "5 km E of Bolívar, Colombia",
+      "magnitud": 4.7,
+      "fecha": "2026-10-24 02:47",
+      "horas_atras": 550.1,
+      "lat": 4.3372,
+      "lon": -76.1341,
+      "profundidad_km": 166.2
+    },
+    {
+      "lugar": "14 km WNW of Ituango, Colombia",
+      "magnitud": 4.2,
+      "fecha": "2026-10-23 04:29",
+      "horas_atras": 572.4,
+      "lat": 7.2018,
+      "lon": -75.8953,
+      "profundidad_km": 58.9
+    },
+    {
+      "lugar": "30 km W of Nuquí, Colombia",
+      "magnitud": 4.0,
+      "fecha": "2026-10-18 07:16",
+      "horas_atras": 689.6,
+      "lat": 5.6591,
+      "lon": -77.5453,
+      "profundidad_km": 20.1
+    },
+    {
+      "lugar": "8 km NNW of Palmira, Colombia",
+      "magnitud": 4.4,
+      "fecha": "2026-10-17 07:25",
+      "horas_atras": 713.4,
+      "lat": 3.6101,
+      "lon": -76.3256,
+      "profundidad_km": 155.2
+    }
+  ],
+  "nodos": {
+    "mesa_santos": {
+      "info": {
+        "nombre": "Mesa de los Santos (Santander, COL)",
+        "placa": "Placa Sudamericana - Nido Sísmico Activo",
+        "lat": 6.8,
+        "lon": -73.1,
+        "poblacion": 1385300,
+        "municipios_radio_50km": [
+          "Bucaramanga: 613,400 hab. (35.6 km)",
+          "Floridablanca: 316,200 hab. (29.2 km)",
+          "Girón: 175,400 hab. (30.8 km)",
+          "Piedecuesta: 186,100 hab. (21.6 km)",
+          "Los Santos: 14,500 hab. (4.9 km)",
+          "Zapatoca: 9,600 hab. (18.6 km)",
+          "Aratoca: 8,900 hab. (14.6 km)",
+          "San Gil: 61,200 hab. (27.5 km)"
+        ],
+        "fuente_demografica": "DANE"
+      },
+      "fuente_estado": "EN VIVO (NASA POWER)",
+      "estadisticas": {
+        "tendencia_ts": "increasing",
+        "p_value_ts": 0.0,
+        "significativa_ts": true,
+        "tasa_cambio_ts": 0.002025,
+        "tendencia_humedad": "decreasing",
+        "p_value_humedad": 0.0,
+        "pi_actual": 1.369,
+        "alerta_derrumbe": "BAJA",
+        "en_alerta_activa": false,
+        "lluvia_72h_mm": 12.04,
+        "humedad_max_72h": 0.59,
+        "delta_temp_72h": 0.47,
+        "sismos_72h_radio_150km": 0,
+        "sismo_mas_cercano_km": 311.7,
+        "fecha_ultimo_dato_nasa": "2026-11-12"
+      },
+      "serie": [
+        {
+          "fecha": "2026-07-16",
+          "TS": 22.02,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 0.05,
+          "indice_pi": 1.4062615777355
+        },
+        {
+          "fecha": "2026-07-17",
+          "TS": 21.33,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 3.72,
+          "indice_pi": 0.039013715732026166
+        },
+        {
+          "fecha": "2026-07-18",
+          "TS": 20.94,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 16.55,
+          "indice_pi": -1.0447530523807331
+        },
+        {
+          "fecha": "2026-07-19",
+          "TS": 20.03,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 12.45,
+          "indice_pi": -1.8361920205818918
+        },
+        {
+          "fecha": "2026-07-20",
+          "TS": 19.95,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 23.16,
+          "indice_pi": -1.3529964804062324
+        },
+        {
+          "fecha": "2026-07-21",
+          "TS": 20.16,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 2.45,
+          "indice_pi": -0.846170304430647
+        },
+        {
+          "fecha": "2026-07-22",
+          "TS": 20.66,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.61,
+          "indice_pi": -0.08795660062730298
+        },
+        {
+          "fecha": "2026-07-23",
+          "TS": 19.26,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 5.01,
+          "indice_pi": -1.5460837440091795
+        },
+        {
+          "fecha": "2026-07-24",
+          "TS": 19.7,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 0.26,
+          "indice_pi": -0.7078814504019855
+        },
+        {
+          "fecha": "2026-07-25",
+          "TS": 20.11,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.7,
+          "indice_pi": 0.2986689116819759
+        },
+        {
+          "fecha": "2026-07-26",
+          "TS": 20.05,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 0.34,
+          "indice_pi": 0.15249633567572526
+        },
+        {
+          "fecha": "2026-07-27",
+          "TS": 21.04,
+          "GWETTOP": 0.65,
+          "PRECTOTCORR": 0.04,
+          "indice_pi": 1.5367971738336286
+        },
+        {
+          "fecha": "2026-07-28",
+          "TS": 20.85,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 0.9484575805725719
+        },
+        {
+          "fecha": "2026-07-29",
+          "TS": 21.37,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 0.06,
+          "indice_pi": 1.3439864803923791
+        },
+        {
+          "fecha": "2026-07-30",
+          "TS": 21.98,
+          "GWETTOP": 0.62,
+          "PRECTOTCORR": 0.75,
+          "indice_pi": 1.5345452338367283
+        },
+        {
+          "fecha": "2026-07-31",
+          "TS": 21.29,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 5.1,
+          "indice_pi": 0.4819670341397253
+        },
+        {
+          "fecha": "2026-08-01",
+          "TS": 21.51,
+          "GWETTOP": 0.62,
+          "PRECTOTCORR": 0.04,
+          "indice_pi": 0.5853002781182645
+        },
+        {
+          "fecha": "2026-08-02",
+          "TS": 21.94,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 1.211862497313578
+        },
+        {
+          "fecha": "2026-08-03",
+          "TS": 20.98,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 1.57,
+          "indice_pi": -1.007327687313508
+        },
+        {
+          "fecha": "2026-08-04",
+          "TS": 21.35,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 0.23,
+          "indice_pi": -0.3850479866640058
+        },
+        {
+          "fecha": "2026-08-05",
+          "TS": 20.45,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 2.57,
+          "indice_pi": -1.693921665485084
+        },
+        {
+          "fecha": "2026-08-06",
+          "TS": 20.24,
+          "GWETTOP": 0.62,
+          "PRECTOTCORR": 1.16,
+          "indice_pi": -1.4515605086406849
+        },
+        {
+          "fecha": "2026-08-07",
+          "TS": 21.15,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 0.1,
+          "indice_pi": 0.10348185448902006
+        },
+        {
+          "fecha": "2026-08-08",
+          "TS": 22.15,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.38,
+          "indice_pi": 1.3706910409394424
+        },
+        {
+          "fecha": "2026-08-09",
+          "TS": 22.24,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.21,
+          "indice_pi": 1.324592134147978
+        },
+        {
+          "fecha": "2026-08-10",
+          "TS": 22.44,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 1.1449357878464526
+        },
+        {
+          "fecha": "2026-08-11",
+          "TS": 23.35,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 1.4359130293931308
+        },
+        {
+          "fecha": "2026-08-12",
+          "TS": 23.03,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.02,
+          "indice_pi": 0.878911136687442
+        },
+        {
+          "fecha": "2026-08-13",
+          "TS": 22.37,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.73,
+          "indice_pi": -0.02851426337229672
+        },
+        {
+          "fecha": "2026-08-14",
+          "TS": 22.42,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.11,
+          "indice_pi": -0.340786101781123
+        },
+        {
+          "fecha": "2026-08-15",
+          "TS": 22.23,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 6.15,
+          "indice_pi": -0.8157073734356867
+        },
+        {
+          "fecha": "2026-08-16",
+          "TS": 20.5,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 13.07,
+          "indice_pi": -2.0274908604854223
+        },
+        {
+          "fecha": "2026-08-17",
+          "TS": 21.4,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 9.98,
+          "indice_pi": -0.8119752306647963
+        },
+        {
+          "fecha": "2026-08-18",
+          "TS": 21.32,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 3.16,
+          "indice_pi": -0.6705110310155753
+        },
+        {
+          "fecha": "2026-08-19",
+          "TS": 22.89,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 1.45,
+          "indice_pi": 1.2236348552334415
+        },
+        {
+          "fecha": "2026-08-20",
+          "TS": 22.76,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.99,
+          "indice_pi": 0.9423613530147964
+        },
+        {
+          "fecha": "2026-08-21",
+          "TS": 21.97,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 8.61,
+          "indice_pi": 0.12049054720090577
+        },
+        {
+          "fecha": "2026-08-22",
+          "TS": 21.45,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 3.36,
+          "indice_pi": -0.35996410913247157
+        },
+        {
+          "fecha": "2026-08-23",
+          "TS": 21.62,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 1.93,
+          "indice_pi": -0.45007374212978063
+        },
+        {
+          "fecha": "2026-08-24",
+          "TS": 23.16,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.1,
+          "indice_pi": 1.31316393717729
+        },
+        {
+          "fecha": "2026-08-25",
+          "TS": 22.31,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 3.97,
+          "indice_pi": 0.002173214769056232
+        },
+        {
+          "fecha": "2026-08-26",
+          "TS": 21.8,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 1.14,
+          "indice_pi": -0.5645963789053282
+        },
+        {
+          "fecha": "2026-08-27",
+          "TS": 22.81,
+          "GWETTOP": 0.62,
+          "PRECTOTCORR": 7.26,
+          "indice_pi": 1.0263726537994158
+        },
+        {
+          "fecha": "2026-08-28",
+          "TS": 23.25,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.57,
+          "indice_pi": 1.2187044760531442
+        },
+        {
+          "fecha": "2026-08-29",
+          "TS": 22.75,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.47,
+          "indice_pi": 0.34641333367938476
+        },
+        {
+          "fecha": "2026-08-30",
+          "TS": 22.34,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 1.62,
+          "indice_pi": -0.5665690410089428
+        },
+        {
+          "fecha": "2026-08-31",
+          "TS": 22.24,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 1.03,
+          "indice_pi": -0.5500874838858895
+        },
+        {
+          "fecha": "2026-09-01",
+          "TS": 22.08,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.72,
+          "indice_pi": -0.7813119087733823
+        },
+        {
+          "fecha": "2026-09-02",
+          "TS": 22.1,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.5,
+          "indice_pi": -0.9365059947801979
+        },
+        {
+          "fecha": "2026-09-03",
+          "TS": 21.43,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 2.1,
+          "indice_pi": -1.5469122631424037
+        },
+        {
+          "fecha": "2026-09-04",
+          "TS": 22.55,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 2.13,
+          "indice_pi": 0.8012300647339758
+        },
+        {
+          "fecha": "2026-09-05",
+          "TS": 22.42,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.47,
+          "indice_pi": 0.6958808110331084
+        },
+        {
+          "fecha": "2026-09-06",
+          "TS": 21.29,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.81,
+          "indice_pi": -1.5131249105894766
+        },
+        {
+          "fecha": "2026-09-07",
+          "TS": 21.19,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 21.06,
+          "indice_pi": -1.2155246867742036
+        },
+        {
+          "fecha": "2026-09-08",
+          "TS": 22.42,
+          "GWETTOP": 0.62,
+          "PRECTOTCORR": 1.79,
+          "indice_pi": 0.8550225794275165
+        },
+        {
+          "fecha": "2026-09-09",
+          "TS": 22.42,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.01,
+          "indice_pi": 0.7420641915624918
+        },
+        {
+          "fecha": "2026-09-10",
+          "TS": 21.94,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 14.25,
+          "indice_pi": -0.16132028980811058
+        },
+        {
+          "fecha": "2026-09-11",
+          "TS": 22.17,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 3.05,
+          "indice_pi": 0.35767134675582907
+        },
+        {
+          "fecha": "2026-09-12",
+          "TS": 22.63,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.17,
+          "indice_pi": 1.0923328857910917
+        },
+        {
+          "fecha": "2026-09-13",
+          "TS": 21.34,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.55,
+          "indice_pi": -1.2096672400755775
+        },
+        {
+          "fecha": "2026-09-14",
+          "TS": 22.4,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.33,
+          "indice_pi": 0.487432308279394
+        },
+        {
+          "fecha": "2026-09-15",
+          "TS": 21.63,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 6.24,
+          "indice_pi": -0.9582220402645545
+        },
+        {
+          "fecha": "2026-09-16",
+          "TS": 21.58,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 4.48,
+          "indice_pi": -0.7996420837456045
+        },
+        {
+          "fecha": "2026-09-17",
+          "TS": 22.69,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.6,
+          "indice_pi": 1.1504004324726709
+        },
+        {
+          "fecha": "2026-09-18",
+          "TS": 22.44,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 1.14,
+          "indice_pi": 0.6011060793891551
+        },
+        {
+          "fecha": "2026-09-19",
+          "TS": 21.35,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.92,
+          "indice_pi": -0.9961441475392654
+        },
+        {
+          "fecha": "2026-09-20",
+          "TS": 22.32,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.22,
+          "indice_pi": 0.4994509737963882
+        },
+        {
+          "fecha": "2026-09-21",
+          "TS": 22.64,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.1,
+          "indice_pi": 0.9834532117895812
+        },
+        {
+          "fecha": "2026-09-22",
+          "TS": 22.43,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 11.95,
+          "indice_pi": 0.42303513027060696
+        },
+        {
+          "fecha": "2026-09-23",
+          "TS": 22.42,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.71,
+          "indice_pi": 0.20623526889052607
+        },
+        {
+          "fecha": "2026-09-24",
+          "TS": 21.99,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 4.12,
+          "indice_pi": -0.5468461151899408
+        },
+        {
+          "fecha": "2026-09-25",
+          "TS": 21.98,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 3.26,
+          "indice_pi": -0.4210764851378353
+        },
+        {
+          "fecha": "2026-09-26",
+          "TS": 22.04,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 2.75,
+          "indice_pi": -0.8497228026650707
+        },
+        {
+          "fecha": "2026-09-27",
+          "TS": 21.41,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 2.74,
+          "indice_pi": -1.7611687021524385
+        },
+        {
+          "fecha": "2026-09-28",
+          "TS": 20.96,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 2.06,
+          "indice_pi": -1.7428651758823255
+        },
+        {
+          "fecha": "2026-09-29",
+          "TS": 23.33,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.18,
+          "indice_pi": 1.7486528492235067
+        },
+        {
+          "fecha": "2026-09-30",
+          "TS": 23.08,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 0.41,
+          "indice_pi": 1.1453778079844508
+        },
+        {
+          "fecha": "2026-10-01",
+          "TS": 19.63,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 5.01,
+          "indice_pi": -1.6935360036637934
+        },
+        {
+          "fecha": "2026-10-02",
+          "TS": 19.23,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 10.13,
+          "indice_pi": -1.3620249225776104
+        },
+        {
+          "fecha": "2026-10-03",
+          "TS": 19.24,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 9.23,
+          "indice_pi": -1.005391995581402
+        },
+        {
+          "fecha": "2026-10-04",
+          "TS": 18.69,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 2.14,
+          "indice_pi": -0.9933938022323617
+        },
+        {
+          "fecha": "2026-10-05",
+          "TS": 19.18,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 4.48,
+          "indice_pi": -0.5866122111618424
+        },
+        {
+          "fecha": "2026-10-06",
+          "TS": 19.05,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 6.7,
+          "indice_pi": -0.45122785540829513
+        },
+        {
+          "fecha": "2026-10-07",
+          "TS": 18.76,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 21.71,
+          "indice_pi": -1.102994852136925
+        },
+        {
+          "fecha": "2026-10-08",
+          "TS": 19.42,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 18.74,
+          "indice_pi": 1.266058879090194
+        },
+        {
+          "fecha": "2026-10-09",
+          "TS": 20.19,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 15.24,
+          "indice_pi": 1.9400875660489054
+        },
+        {
+          "fecha": "2026-10-10",
+          "TS": 19.91,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 9.51,
+          "indice_pi": 1.0536957250888905
+        },
+        {
+          "fecha": "2026-10-11",
+          "TS": 18.0,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 10.36,
+          "indice_pi": -1.6679798797696401
+        },
+        {
+          "fecha": "2026-10-12",
+          "TS": 17.13,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 11.44,
+          "indice_pi": -1.6675104250782322
+        },
+        {
+          "fecha": "2026-10-13",
+          "TS": 16.88,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 3.93,
+          "indice_pi": -1.3149140979517269
+        },
+        {
+          "fecha": "2026-10-14",
+          "TS": 18.87,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 7.2,
+          "indice_pi": 0.1828245016324716
+        },
+        {
+          "fecha": "2026-10-15",
+          "TS": 20.43,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 4.68,
+          "indice_pi": 1.1285821392811322
+        },
+        {
+          "fecha": "2026-10-16",
+          "TS": 19.83,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 5.56,
+          "indice_pi": 0.7830017169783835
+        },
+        {
+          "fecha": "2026-10-17",
+          "TS": 19.79,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 7.86,
+          "indice_pi": 0.7757090568423599
+        },
+        {
+          "fecha": "2026-10-18",
+          "TS": 17.51,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 9.79,
+          "indice_pi": -0.7742969440742422
+        },
+        {
+          "fecha": "2026-10-19",
+          "TS": 19.14,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 4.15,
+          "indice_pi": 0.16875137996055792
+        },
+        {
+          "fecha": "2026-10-20",
+          "TS": 19.27,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 10.49,
+          "indice_pi": 0.007669899540245636
+        },
+        {
+          "fecha": "2026-10-21",
+          "TS": 18.35,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 19.49,
+          "indice_pi": -0.8496839169897796
+        },
+        {
+          "fecha": "2026-10-22",
+          "TS": 18.73,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 12.26,
+          "indice_pi": -0.2609413669532245
+        },
+        {
+          "fecha": "2026-10-23",
+          "TS": 20.12,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 8.24,
+          "indice_pi": 1.2819765591735344
+        },
+        {
+          "fecha": "2026-10-24",
+          "TS": 19.52,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 11.75,
+          "indice_pi": 0.6738808655858693
+        },
+        {
+          "fecha": "2026-10-25",
+          "TS": 19.84,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 18.01,
+          "indice_pi": 0.9093416705825587
+        },
+        {
+          "fecha": "2026-10-26",
+          "TS": 19.98,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 13.88,
+          "indice_pi": 0.8737055814697692
+        },
+        {
+          "fecha": "2026-10-27",
+          "TS": 19.24,
+          "GWETTOP": 0.62,
+          "PRECTOTCORR": 25.35,
+          "indice_pi": -0.23691330900643012
+        },
+        {
+          "fecha": "2026-10-28",
+          "TS": 19.85,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 9.18,
+          "indice_pi": 0.4892146583935751
+        },
+        {
+          "fecha": "2026-10-29",
+          "TS": 19.15,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 5.49,
+          "indice_pi": -1.3955001742847557
+        },
+        {
+          "fecha": "2026-10-30",
+          "TS": 19.39,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 7.16,
+          "indice_pi": -0.5425808279558457
+        },
+        {
+          "fecha": "2026-10-31",
+          "TS": 18.98,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 7.4,
+          "indice_pi": -1.2882183793664181
+        },
+        {
+          "fecha": "2026-11-01",
+          "TS": 19.34,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 8.35,
+          "indice_pi": -0.21454931339033062
+        },
+        {
+          "fecha": "2026-11-02",
+          "TS": 19.72,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 4.41,
+          "indice_pi": 1.0978106272005965
+        },
+        {
+          "fecha": "2026-11-03",
+          "TS": 19.51,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 11.67,
+          "indice_pi": 0.2954394739341334
+        },
+        {
+          "fecha": "2026-11-04",
+          "TS": 19.6,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 10.87,
+          "indice_pi": 0.840333914888819
+        },
+        {
+          "fecha": "2026-11-05",
+          "TS": 18.9,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 28.04,
+          "indice_pi": -1.4603808710282218
+        },
+        {
+          "fecha": "2026-11-06",
+          "TS": 19.08,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 56.45,
+          "indice_pi": -0.6961661421420051
+        },
+        {
+          "fecha": "2026-11-07",
+          "TS": 18.74,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 27.56,
+          "indice_pi": -1.426884379892369
+        },
+        {
+          "fecha": "2026-11-08",
+          "TS": 19.1,
+          "GWETTOP": 0.62,
+          "PRECTOTCORR": 5.88,
+          "indice_pi": -0.36194306478470534
+        },
+        {
+          "fecha": "2026-11-09",
+          "TS": 19.5,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 1.32,
+          "indice_pi": 0.883634221126696
+        },
+        {
+          "fecha": "2026-11-10",
+          "TS": 19.15,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 1.57,
+          "indice_pi": -0.009327718355004594
+        },
+        {
+          "fecha": "2026-11-11",
+          "TS": 19.33,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 4.38,
+          "indice_pi": 0.8527173070700969
+        },
+        {
+          "fecha": "2026-11-12",
+          "TS": 19.62,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 6.09,
+          "indice_pi": 1.3687761482063152
+        }
+      ]
+    },
+    "bocono": {
+      "info": {
+        "nombre": "Falla de Boconó (Mérida/Táchira, VEN)",
+        "placa": "Placa Sudamericana - Falla Transcurrente",
+        "lat": 8.59,
+        "lon": -71.14,
+        "poblacion": 559500,
+        "municipios_radio_50km": [
+          "Mérida: 345,000 hab. (1.8 km)",
+          "Ejido: 115,000 hab. (12.1 km)",
+          "Tabay: 22,000 hab. (9.4 km)",
+          "Lagunillas: 58,000 hab. (29.2 km)",
+          "Mucuchíes: 19,500 hab. (30.3 km)"
+        ],
+        "fuente_demografica": "INE"
+      },
+      "fuente_estado": "EN VIVO (NASA POWER)",
+      "estadisticas": {
+        "tendencia_ts": "increasing",
+        "p_value_ts": 0.0,
+        "significativa_ts": true,
+        "tasa_cambio_ts": 0.003258,
+        "tendencia_humedad": "decreasing",
+        "p_value_humedad": 0.00044,
+        "pi_actual": 0.215,
+        "alerta_derrumbe": "MODERADA",
+        "en_alerta_activa": false,
+        "lluvia_72h_mm": 10.53,
+        "humedad_max_72h": 0.7,
+        "delta_temp_72h": 0.58,
+        "sismos_72h_radio_150km": 0,
+        "sismo_mas_cercano_km": 546.0,
+        "fecha_ultimo_dato_nasa": "2026-11-12"
+      },
+      "serie": [
+        {
+          "fecha": "2026-07-16",
+          "TS": 19.53,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 0.14,
+          "indice_pi": 1.1983572992494262
+        },
+        {
+          "fecha": "2026-07-17",
+          "TS": 20.38,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 0.06,
+          "indice_pi": 1.427749125592627
+        },
+        {
+          "fecha": "2026-07-18",
+          "TS": 19.12,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 2.11,
+          "indice_pi": 0.32170507056509556
+        },
+        {
+          "fecha": "2026-07-19",
+          "TS": 18.46,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 8.67,
+          "indice_pi": -0.500677367279435
+        },
+        {
+          "fecha": "2026-07-20",
+          "TS": 17.45,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 11.95,
+          "indice_pi": -1.4196176211640543
+        },
+        {
+          "fecha": "2026-07-21",
+          "TS": 18.58,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 6.08,
+          "indice_pi": -0.43525615579847077
+        },
+        {
+          "fecha": "2026-07-22",
+          "TS": 19.09,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 5.96,
+          "indice_pi": 0.15872658910005896
+        },
+        {
+          "fecha": "2026-07-23",
+          "TS": 18.26,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 7.36,
+          "indice_pi": -0.5535524133808154
+        },
+        {
+          "fecha": "2026-07-24",
+          "TS": 19.16,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 0.9267182933928192
+        },
+        {
+          "fecha": "2026-07-25",
+          "TS": 19.28,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 6.16,
+          "indice_pi": 1.0413249969812397
+        },
+        {
+          "fecha": "2026-07-26",
+          "TS": 17.63,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 8.42,
+          "indice_pi": -1.160816038283839
+        },
+        {
+          "fecha": "2026-07-27",
+          "TS": 18.22,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 0.05,
+          "indice_pi": -0.6297902800493252
+        },
+        {
+          "fecha": "2026-07-28",
+          "TS": 18.92,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 0.433698490533516
+        },
+        {
+          "fecha": "2026-07-29",
+          "TS": 19.35,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 0.99,
+          "indice_pi": 1.0073257943023428
+        },
+        {
+          "fecha": "2026-07-30",
+          "TS": 19.22,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 1.84,
+          "indice_pi": 0.6043362564258921
+        },
+        {
+          "fecha": "2026-07-31",
+          "TS": 18.53,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 15.77,
+          "indice_pi": -0.3204280507650734
+        },
+        {
+          "fecha": "2026-08-01",
+          "TS": 17.91,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 2.21,
+          "indice_pi": -0.9588104504676693
+        },
+        {
+          "fecha": "2026-08-02",
+          "TS": 19.55,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 1.1998784914525946
+        },
+        {
+          "fecha": "2026-08-03",
+          "TS": 19.56,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 3.44,
+          "indice_pi": 0.914921322179101
+        },
+        {
+          "fecha": "2026-08-04",
+          "TS": 18.36,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 4.17,
+          "indice_pi": -0.8648927441432486
+        },
+        {
+          "fecha": "2026-08-05",
+          "TS": 17.7,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 1.35,
+          "indice_pi": -1.296140204963309
+        },
+        {
+          "fecha": "2026-08-06",
+          "TS": 17.22,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 1.56,
+          "indice_pi": -1.3228360362905796
+        },
+        {
+          "fecha": "2026-08-07",
+          "TS": 19.03,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 2.18,
+          "indice_pi": 0.5983414227717204
+        },
+        {
+          "fecha": "2026-08-08",
+          "TS": 18.97,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.03,
+          "indice_pi": 0.3789019239072443
+        },
+        {
+          "fecha": "2026-08-09",
+          "TS": 18.87,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 0.52,
+          "indice_pi": 0.41363060960688774
+        },
+        {
+          "fecha": "2026-08-10",
+          "TS": 19.8,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 0.1,
+          "indice_pi": 1.4116271547278068
+        },
+        {
+          "fecha": "2026-08-11",
+          "TS": 20.51,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.27,
+          "indice_pi": 1.448166141931502
+        },
+        {
+          "fecha": "2026-08-12",
+          "TS": 20.55,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.04,
+          "indice_pi": 1.1034031030729128
+        },
+        {
+          "fecha": "2026-08-13",
+          "TS": 20.31,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 0.7804933847150348
+        },
+        {
+          "fecha": "2026-08-14",
+          "TS": 19.31,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.24,
+          "indice_pi": -0.6251004936253092
+        },
+        {
+          "fecha": "2026-08-15",
+          "TS": 20.62,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 2.41,
+          "indice_pi": 0.9080465162275075
+        },
+        {
+          "fecha": "2026-08-16",
+          "TS": 19.08,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 8.69,
+          "indice_pi": -1.495003049777064
+        },
+        {
+          "fecha": "2026-08-17",
+          "TS": 19.28,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.8,
+          "indice_pi": -0.9712360894110145
+        },
+        {
+          "fecha": "2026-08-18",
+          "TS": 18.75,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 1.2,
+          "indice_pi": -1.2339396787551449
+        },
+        {
+          "fecha": "2026-08-19",
+          "TS": 19.33,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 1.17,
+          "indice_pi": -0.28866060973731245
+        },
+        {
+          "fecha": "2026-08-20",
+          "TS": 19.81,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 9.18,
+          "indice_pi": 0.5890284351922507
+        },
+        {
+          "fecha": "2026-08-21",
+          "TS": 19.91,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 3.55,
+          "indice_pi": 0.5945613380580366
+        },
+        {
+          "fecha": "2026-08-22",
+          "TS": 19.93,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 8.73,
+          "indice_pi": 1.0741571228126048
+        },
+        {
+          "fecha": "2026-08-23",
+          "TS": 18.07,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 14.14,
+          "indice_pi": -1.7818573047583546
+        },
+        {
+          "fecha": "2026-08-24",
+          "TS": 19.73,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 0.9,
+          "indice_pi": 0.5209014764359378
+        },
+        {
+          "fecha": "2026-08-25",
+          "TS": 19.42,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 3.76,
+          "indice_pi": -0.05675967533269162
+        },
+        {
+          "fecha": "2026-08-26",
+          "TS": 19.41,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.96,
+          "indice_pi": -0.0897655513593054
+        },
+        {
+          "fecha": "2026-08-27",
+          "TS": 19.61,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 0.91,
+          "indice_pi": 0.26591730613478703
+        },
+        {
+          "fecha": "2026-08-28",
+          "TS": 20.67,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 1.4355116092903326
+        },
+        {
+          "fecha": "2026-08-29",
+          "TS": 20.7,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 1.32,
+          "indice_pi": 1.1695680502518735
+        },
+        {
+          "fecha": "2026-08-30",
+          "TS": 19.38,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 8.45,
+          "indice_pi": -0.7936189135256128
+        },
+        {
+          "fecha": "2026-08-31",
+          "TS": 19.35,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 6.59,
+          "indice_pi": -0.7164239554133598
+        },
+        {
+          "fecha": "2026-09-01",
+          "TS": 20.63,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.09,
+          "indice_pi": 1.0047499008308083
+        },
+        {
+          "fecha": "2026-09-02",
+          "TS": 18.9,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 13.84,
+          "indice_pi": -1.3127406189488708
+        },
+        {
+          "fecha": "2026-09-03",
+          "TS": 18.87,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 1.91,
+          "indice_pi": -1.080660124391718
+        },
+        {
+          "fecha": "2026-09-04",
+          "TS": 18.96,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.09,
+          "indice_pi": -0.7315365336543759
+        },
+        {
+          "fecha": "2026-09-05",
+          "TS": 18.64,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.66,
+          "indice_pi": -0.9128260084316413
+        },
+        {
+          "fecha": "2026-09-06",
+          "TS": 17.78,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 6.67,
+          "indice_pi": -1.4424951715788998
+        },
+        {
+          "fecha": "2026-09-07",
+          "TS": 18.39,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 6.31,
+          "indice_pi": -0.5626541222106778
+        },
+        {
+          "fecha": "2026-09-08",
+          "TS": 19.1,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 5.64,
+          "indice_pi": 0.9643341288402973
+        },
+        {
+          "fecha": "2026-09-09",
+          "TS": 20.41,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.06,
+          "indice_pi": 1.8986550702797325
+        },
+        {
+          "fecha": "2026-09-10",
+          "TS": 20.18,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 15.5,
+          "indice_pi": 1.179818752469188
+        },
+        {
+          "fecha": "2026-09-11",
+          "TS": 18.59,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 0.87,
+          "indice_pi": -0.43976328004276266
+        },
+        {
+          "fecha": "2026-09-12",
+          "TS": 20.38,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 2.63,
+          "indice_pi": 1.0472488734717609
+        },
+        {
+          "fecha": "2026-09-13",
+          "TS": 19.8,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.33,
+          "indice_pi": 0.2933539583627404
+        },
+        {
+          "fecha": "2026-09-14",
+          "TS": 20.23,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.13,
+          "indice_pi": 0.5908413741617625
+        },
+        {
+          "fecha": "2026-09-15",
+          "TS": 19.21,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 5.89,
+          "indice_pi": -0.8984188833271632
+        },
+        {
+          "fecha": "2026-09-16",
+          "TS": 18.84,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 2.36,
+          "indice_pi": -1.0579473982767238
+        },
+        {
+          "fecha": "2026-09-17",
+          "TS": 19.68,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 8.76,
+          "indice_pi": 0.21656057953228
+        },
+        {
+          "fecha": "2026-09-18",
+          "TS": 21.1,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 0.77,
+          "indice_pi": 1.596854706888706
+        },
+        {
+          "fecha": "2026-09-19",
+          "TS": 20.76,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 3.33,
+          "indice_pi": 1.0058825269692573
+        },
+        {
+          "fecha": "2026-09-20",
+          "TS": 21.02,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.01,
+          "indice_pi": 1.000803436364518
+        },
+        {
+          "fecha": "2026-09-21",
+          "TS": 19.99,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": -0.10647227454667937
+        },
+        {
+          "fecha": "2026-09-22",
+          "TS": 20.19,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.03,
+          "indice_pi": -0.04398584892039909
+        },
+        {
+          "fecha": "2026-09-23",
+          "TS": 21.2,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 1.054860989526891
+        },
+        {
+          "fecha": "2026-09-24",
+          "TS": 19.64,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 15.45,
+          "indice_pi": -1.494059248277314
+        },
+        {
+          "fecha": "2026-09-25",
+          "TS": 19.66,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 3.4,
+          "indice_pi": -1.0765776819776702
+        },
+        {
+          "fecha": "2026-09-26",
+          "TS": 19.8,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.26,
+          "indice_pi": -0.6443431605992351
+        },
+        {
+          "fecha": "2026-09-27",
+          "TS": 19.09,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 15.67,
+          "indice_pi": -1.2983221461511867
+        },
+        {
+          "fecha": "2026-09-28",
+          "TS": 19.23,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 1.93,
+          "indice_pi": -0.8513707857126709
+        },
+        {
+          "fecha": "2026-09-29",
+          "TS": 20.97,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 1.2499196322369632
+        },
+        {
+          "fecha": "2026-09-30",
+          "TS": 21.23,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.61,
+          "indice_pi": 1.5462156977308665
+        },
+        {
+          "fecha": "2026-10-01",
+          "TS": 20.22,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 7.07,
+          "indice_pi": 0.23233819378221846
+        },
+        {
+          "fecha": "2026-10-02",
+          "TS": 19.57,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 12.88,
+          "indice_pi": -0.5361645272297039
+        },
+        {
+          "fecha": "2026-10-03",
+          "TS": 19.08,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 24.67,
+          "indice_pi": -0.9214856963748992
+        },
+        {
+          "fecha": "2026-10-04",
+          "TS": 19.79,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 2.73,
+          "indice_pi": -0.26734273000187087
+        },
+        {
+          "fecha": "2026-10-05",
+          "TS": 20.68,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 2.43,
+          "indice_pi": 0.585682408943295
+        },
+        {
+          "fecha": "2026-10-06",
+          "TS": 20.16,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 7.69,
+          "indice_pi": 0.07816170144750165
+        },
+        {
+          "fecha": "2026-10-07",
+          "TS": 19.22,
+          "GWETTOP": 0.74,
+          "PRECTOTCORR": 5.54,
+          "indice_pi": -1.0378835427107878
+        },
+        {
+          "fecha": "2026-10-08",
+          "TS": 20.32,
+          "GWETTOP": 0.74,
+          "PRECTOTCORR": 7.61,
+          "indice_pi": 0.8307392746405027
+        },
+        {
+          "fecha": "2026-10-09",
+          "TS": 20.06,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 11.57,
+          "indice_pi": 0.2729608147250248
+        },
+        {
+          "fecha": "2026-10-10",
+          "TS": 20.5,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 4.27,
+          "indice_pi": 0.8133105210420938
+        },
+        {
+          "fecha": "2026-10-11",
+          "TS": 20.03,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 5.87,
+          "indice_pi": -0.23157282588494196
+        },
+        {
+          "fecha": "2026-10-12",
+          "TS": 17.49,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 7.66,
+          "indice_pi": -2.0928785025021805
+        },
+        {
+          "fecha": "2026-10-13",
+          "TS": 17.41,
+          "GWETTOP": 0.74,
+          "PRECTOTCORR": 1.18,
+          "indice_pi": -1.4248967970884585
+        },
+        {
+          "fecha": "2026-10-14",
+          "TS": 19.51,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 2.82,
+          "indice_pi": 0.1351400051329809
+        },
+        {
+          "fecha": "2026-10-15",
+          "TS": 20.39,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 3.41,
+          "indice_pi": 0.7881959005150896
+        },
+        {
+          "fecha": "2026-10-16",
+          "TS": 20.38,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 4.1,
+          "indice_pi": 0.7277848674477186
+        },
+        {
+          "fecha": "2026-10-17",
+          "TS": 20.32,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 2.91,
+          "indice_pi": 0.714685911804326
+        },
+        {
+          "fecha": "2026-10-18",
+          "TS": 19.51,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 2.82,
+          "indice_pi": 0.1698435347836178
+        },
+        {
+          "fecha": "2026-10-19",
+          "TS": 19.51,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 1.48,
+          "indice_pi": -0.06281252330846866
+        },
+        {
+          "fecha": "2026-10-20",
+          "TS": 20.23,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 7.49,
+          "indice_pi": 0.5696449184138952
+        },
+        {
+          "fecha": "2026-10-21",
+          "TS": 20.01,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 3.49,
+          "indice_pi": -0.10245190025221892
+        },
+        {
+          "fecha": "2026-10-22",
+          "TS": 19.95,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 5.02,
+          "indice_pi": -0.10292718850145784
+        },
+        {
+          "fecha": "2026-10-23",
+          "TS": 19.82,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 3.0,
+          "indice_pi": -0.2732698097765156
+        },
+        {
+          "fecha": "2026-10-24",
+          "TS": 20.26,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 3.55,
+          "indice_pi": 1.1791786087195786
+        },
+        {
+          "fecha": "2026-10-25",
+          "TS": 20.06,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 7.25,
+          "indice_pi": 0.3227073117867417
+        },
+        {
+          "fecha": "2026-10-26",
+          "TS": 20.06,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 10.83,
+          "indice_pi": 0.027959750361467074
+        },
+        {
+          "fecha": "2026-10-27",
+          "TS": 18.03,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 31.99,
+          "indice_pi": -2.2335591295409163
+        },
+        {
+          "fecha": "2026-10-28",
+          "TS": 19.57,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 2.86,
+          "indice_pi": -0.1431323533439149
+        },
+        {
+          "fecha": "2026-10-29",
+          "TS": 19.82,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 1.81,
+          "indice_pi": 0.21266644876981053
+        },
+        {
+          "fecha": "2026-10-30",
+          "TS": 19.61,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 8.47,
+          "indice_pi": -0.026699120879169223
+        },
+        {
+          "fecha": "2026-10-31",
+          "TS": 19.5,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 6.57,
+          "indice_pi": -0.030799890671990113
+        },
+        {
+          "fecha": "2026-11-01",
+          "TS": 19.25,
+          "GWETTOP": 0.74,
+          "PRECTOTCORR": 5.26,
+          "indice_pi": -0.23681256793229508
+        },
+        {
+          "fecha": "2026-11-02",
+          "TS": 20.07,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 1.37,
+          "indice_pi": 1.0055333845482834
+        },
+        {
+          "fecha": "2026-11-03",
+          "TS": 19.89,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 7.56,
+          "indice_pi": 0.7931202452207512
+        },
+        {
+          "fecha": "2026-11-04",
+          "TS": 19.92,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 3.82,
+          "indice_pi": 0.6950223064716836
+        },
+        {
+          "fecha": "2026-11-05",
+          "TS": 19.83,
+          "GWETTOP": 0.74,
+          "PRECTOTCORR": 8.52,
+          "indice_pi": 0.37191251875143644
+        },
+        {
+          "fecha": "2026-11-06",
+          "TS": 19.59,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 12.4,
+          "indice_pi": -0.4600517587343035
+        },
+        {
+          "fecha": "2026-11-07",
+          "TS": 19.81,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 6.0,
+          "indice_pi": 0.16451624215127766
+        },
+        {
+          "fecha": "2026-11-08",
+          "TS": 19.19,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 5.65,
+          "indice_pi": -1.965145875653789
+        },
+        {
+          "fecha": "2026-11-09",
+          "TS": 18.62,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 0.58,
+          "indice_pi": -1.9290067321314093
+        },
+        {
+          "fecha": "2026-11-10",
+          "TS": 18.67,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 3.19,
+          "indice_pi": -1.2741031859484366
+        },
+        {
+          "fecha": "2026-11-11",
+          "TS": 18.95,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 3.89,
+          "indice_pi": -0.5575601972288516
+        },
+        {
+          "fecha": "2026-11-12",
+          "TS": 19.25,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 3.45,
+          "indice_pi": 0.21474322207321891
+        }
+      ]
+    },
+    "pereira": {
+      "info": {
+        "nombre": "Pereira y Eje Cafetero (Risaralda, COL)",
+        "placa": "Subducción Placa de Nazca - Sudamericana",
+        "lat": 4.81,
+        "lon": -75.69,
+        "poblacion": 1700400,
+        "municipios_radio_50km": [
+          "Pereira: 482,400 hab. (0.8 km)",
+          "Dosquebradas: 228,500 hab. (3.5 km)",
+          "Santa Rosa de Cabal: 81,300 hab. (10.0 km)",
+          "Armenia: 312,900 hab. (30.7 km)",
+          "Manizales: 454,100 hab. (34.6 km)",
+          "Cartago: 141,200 hab. (25.6 km)"
+        ],
+        "fuente_demografica": "DANE"
+      },
+      "fuente_estado": "EN VIVO (NASA POWER)",
+      "estadisticas": {
+        "tendencia_ts": "increasing",
+        "p_value_ts": 0.0,
+        "significativa_ts": true,
+        "tasa_cambio_ts": 0.002238,
+        "tendencia_humedad": "decreasing",
+        "p_value_humedad": 0.0,
+        "pi_actual": -0.118,
+        "alerta_derrumbe": "ALTA",
+        "en_alerta_activa": true,
+        "lluvia_72h_mm": 8.83,
+        "humedad_max_72h": 0.76,
+        "delta_temp_72h": 0.25,
+        "sismos_72h_radio_150km": 2,
+        "sismo_mas_cercano_km": 72.0,
+        "fecha_ultimo_dato_nasa": "2026-11-12"
+      },
+      "serie": [
+        {
+          "fecha": "2026-07-16",
+          "TS": 17.3,
+          "GWETTOP": 0.81,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": 0.9006801072597693
+        },
+        {
+          "fecha": "2026-07-17",
+          "TS": 16.96,
+          "GWETTOP": 0.8,
+          "PRECTOTCORR": 0.04,
+          "indice_pi": 0.4869172460666819
+        },
+        {
+          "fecha": "2026-07-18",
+          "TS": 17.51,
+          "GWETTOP": 0.8,
+          "PRECTOTCORR": 1.07,
+          "indice_pi": 1.0539821197269807
+        },
+        {
+          "fecha": "2026-07-19",
+          "TS": 16.47,
+          "GWETTOP": 0.8,
+          "PRECTOTCORR": 4.98,
+          "indice_pi": -0.7567139476108422
+        },
+        {
+          "fecha": "2026-07-20",
+          "TS": 16.69,
+          "GWETTOP": 0.81,
+          "PRECTOTCORR": 6.65,
+          "indice_pi": -0.8401130744474428
+        },
+        {
+          "fecha": "2026-07-21",
+          "TS": 17.23,
+          "GWETTOP": 0.81,
+          "PRECTOTCORR": 3.23,
+          "indice_pi": 0.5023652600792242
+        },
+        {
+          "fecha": "2026-07-22",
+          "TS": 17.42,
+          "GWETTOP": 0.8,
+          "PRECTOTCORR": 2.01,
+          "indice_pi": 0.8657301210424558
+        },
+        {
+          "fecha": "2026-07-23",
+          "TS": 16.31,
+          "GWETTOP": 0.8,
+          "PRECTOTCORR": 2.71,
+          "indice_pi": -1.3461665315635631
+        },
+        {
+          "fecha": "2026-07-24",
+          "TS": 16.85,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 0.07,
+          "indice_pi": -0.1610352217694768
+        },
+        {
+          "fecha": "2026-07-25",
+          "TS": 16.31,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 0.91,
+          "indice_pi": -1.01114643658507
+        },
+        {
+          "fecha": "2026-07-26",
+          "TS": 15.98,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 0.84,
+          "indice_pi": -1.3459717166253737
+        },
+        {
+          "fecha": "2026-07-27",
+          "TS": 15.7,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 2.97,
+          "indice_pi": -1.3132442985920503
+        },
+        {
+          "fecha": "2026-07-28",
+          "TS": 16.69,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 0.97,
+          "indice_pi": 0.39049330205596033
+        },
+        {
+          "fecha": "2026-07-29",
+          "TS": 17.31,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 0.76,
+          "indice_pi": 1.5790230699674408
+        },
+        {
+          "fecha": "2026-07-30",
+          "TS": 17.52,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 0.38,
+          "indice_pi": 1.338387548449616
+        },
+        {
+          "fecha": "2026-07-31",
+          "TS": 17.37,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 0.22,
+          "indice_pi": 0.9265826772602124
+        },
+        {
+          "fecha": "2026-08-01",
+          "TS": 16.82,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 0.19,
+          "indice_pi": 0.07080514800462769
+        },
+        {
+          "fecha": "2026-08-02",
+          "TS": 16.93,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 0.16,
+          "indice_pi": 0.039530608061615895
+        },
+        {
+          "fecha": "2026-08-03",
+          "TS": 16.23,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 0.18,
+          "indice_pi": -1.661462294671603
+        },
+        {
+          "fecha": "2026-08-04",
+          "TS": 16.4,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 0.19,
+          "indice_pi": -1.0915589555395515
+        },
+        {
+          "fecha": "2026-08-05",
+          "TS": 16.17,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 1.28,
+          "indice_pi": -1.1278434865522113
+        },
+        {
+          "fecha": "2026-08-06",
+          "TS": 16.63,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 1.03,
+          "indice_pi": -0.04680791026907901
+        },
+        {
+          "fecha": "2026-08-07",
+          "TS": 17.3,
+          "GWETTOP": 0.74,
+          "PRECTOTCORR": 0.18,
+          "indice_pi": 1.6176341020470764
+        },
+        {
+          "fecha": "2026-08-08",
+          "TS": 17.62,
+          "GWETTOP": 0.74,
+          "PRECTOTCORR": 0.1,
+          "indice_pi": 1.5652662673984068
+        },
+        {
+          "fecha": "2026-08-09",
+          "TS": 17.58,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 0.15,
+          "indice_pi": 1.152536443670708
+        },
+        {
+          "fecha": "2026-08-10",
+          "TS": 16.89,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 0.0,
+          "indice_pi": -0.08941990705408419
+        },
+        {
+          "fecha": "2026-08-11",
+          "TS": 16.74,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 1.8,
+          "indice_pi": -0.4675279886215841
+        },
+        {
+          "fecha": "2026-08-12",
+          "TS": 16.42,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 1.83,
+          "indice_pi": -1.2726422100332542
+        },
+        {
+          "fecha": "2026-08-13",
+          "TS": 16.87,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 1.45,
+          "indice_pi": -0.4215980944276088
+        },
+        {
+          "fecha": "2026-08-14",
+          "TS": 17.62,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 1.82,
+          "indice_pi": 1.0425764423441084
+        },
+        {
+          "fecha": "2026-08-15",
+          "TS": 18.21,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 1.45,
+          "indice_pi": 1.6245828407294183
+        },
+        {
+          "fecha": "2026-08-16",
+          "TS": 16.96,
+          "GWETTOP": 0.74,
+          "PRECTOTCORR": 14.2,
+          "indice_pi": -0.23297535944626027
+        },
+        {
+          "fecha": "2026-08-17",
+          "TS": 16.37,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 18.06,
+          "indice_pi": -0.9864402910929929
+        },
+        {
+          "fecha": "2026-08-18",
+          "TS": 17.06,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 1.82,
+          "indice_pi": -0.01965752848038493
+        },
+        {
+          "fecha": "2026-08-19",
+          "TS": 17.81,
+          "GWETTOP": 0.73,
+          "PRECTOTCORR": 0.03,
+          "indice_pi": 0.8501606513916048
+        },
+        {
+          "fecha": "2026-08-20",
+          "TS": 17.29,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 0.29,
+          "indice_pi": -0.06807924405641252
+        },
+        {
+          "fecha": "2026-08-21",
+          "TS": 17.39,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 1.31,
+          "indice_pi": 0.15328897947857356
+        },
+        {
+          "fecha": "2026-08-22",
+          "TS": 16.89,
+          "GWETTOP": 0.72,
+          "PRECTOTCORR": 1.24,
+          "indice_pi": -0.48752652067828284
+        },
+        {
+          "fecha": "2026-08-23",
+          "TS": 17.03,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 0.32,
+          "indice_pi": -0.2008281608924977
+        },
+        {
+          "fecha": "2026-08-24",
+          "TS": 17.31,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 0.58,
+          "indice_pi": 0.18362279297988954
+        },
+        {
+          "fecha": "2026-08-25",
+          "TS": 18.32,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 0.48,
+          "indice_pi": 1.818359053272939
+        },
+        {
+          "fecha": "2026-08-26",
+          "TS": 16.78,
+          "GWETTOP": 0.7,
+          "PRECTOTCORR": 0.09,
+          "indice_pi": -0.9949261368608638
+        },
+        {
+          "fecha": "2026-08-27",
+          "TS": 17.71,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 0.64,
+          "indice_pi": 0.6791888966100655
+        },
+        {
+          "fecha": "2026-08-28",
+          "TS": 17.39,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 2.68,
+          "indice_pi": 0.08021916101693363
+        },
+        {
+          "fecha": "2026-08-29",
+          "TS": 17.05,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 3.03,
+          "indice_pi": -0.6219751129897636
+        },
+        {
+          "fecha": "2026-08-30",
+          "TS": 17.71,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 1.15,
+          "indice_pi": 0.4821684611049506
+        },
+        {
+          "fecha": "2026-08-31",
+          "TS": 17.8,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.23,
+          "indice_pi": 0.5132168747382613
+        },
+        {
+          "fecha": "2026-09-01",
+          "TS": 17.41,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 6.97,
+          "indice_pi": 0.007551364685585298
+        },
+        {
+          "fecha": "2026-09-02",
+          "TS": 16.78,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 2.28,
+          "indice_pi": -1.6575245484865972
+        },
+        {
+          "fecha": "2026-09-03",
+          "TS": 17.05,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 1.32,
+          "indice_pi": -0.7056544890082626
+        },
+        {
+          "fecha": "2026-09-04",
+          "TS": 17.5,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.34,
+          "indice_pi": 0.4528334128516583
+        },
+        {
+          "fecha": "2026-09-05",
+          "TS": 16.91,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.35,
+          "indice_pi": -0.999198046955142
+        },
+        {
+          "fecha": "2026-09-06",
+          "TS": 15.62,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 0.76,
+          "indice_pi": -1.9589774604823231
+        },
+        {
+          "fecha": "2026-09-07",
+          "TS": 16.54,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 0.08,
+          "indice_pi": -0.4594116451821364
+        },
+        {
+          "fecha": "2026-09-08",
+          "TS": 18.03,
+          "GWETTOP": 0.65,
+          "PRECTOTCORR": 0.68,
+          "indice_pi": 1.4679471739176901
+        },
+        {
+          "fecha": "2026-09-09",
+          "TS": 17.83,
+          "GWETTOP": 0.65,
+          "PRECTOTCORR": 0.84,
+          "indice_pi": 0.9218455310799262
+        },
+        {
+          "fecha": "2026-09-10",
+          "TS": 17.87,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 3.45,
+          "indice_pi": 0.7781862033153378
+        },
+        {
+          "fecha": "2026-09-11",
+          "TS": 16.78,
+          "GWETTOP": 0.67,
+          "PRECTOTCORR": 4.05,
+          "indice_pi": -0.34472228288122997
+        },
+        {
+          "fecha": "2026-09-12",
+          "TS": 18.07,
+          "GWETTOP": 0.65,
+          "PRECTOTCORR": 0.75,
+          "indice_pi": 0.8671887744592567
+        },
+        {
+          "fecha": "2026-09-13",
+          "TS": 17.27,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 2.61,
+          "indice_pi": -0.34292874078848756
+        },
+        {
+          "fecha": "2026-09-14",
+          "TS": 17.05,
+          "GWETTOP": 0.65,
+          "PRECTOTCORR": 0.92,
+          "indice_pi": -0.9812984477069352
+        },
+        {
+          "fecha": "2026-09-15",
+          "TS": 16.87,
+          "GWETTOP": 0.65,
+          "PRECTOTCORR": 0.5,
+          "indice_pi": -0.9916586764074241
+        },
+        {
+          "fecha": "2026-09-16",
+          "TS": 16.85,
+          "GWETTOP": 0.65,
+          "PRECTOTCORR": 1.13,
+          "indice_pi": -0.771957630298051
+        },
+        {
+          "fecha": "2026-09-17",
+          "TS": 17.85,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 0.07,
+          "indice_pi": 1.1653587634409406
+        },
+        {
+          "fecha": "2026-09-18",
+          "TS": 18.04,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 0.78,
+          "indice_pi": 1.1231687403954649
+        },
+        {
+          "fecha": "2026-09-19",
+          "TS": 17.84,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 2.64,
+          "indice_pi": 0.8802854407504409
+        },
+        {
+          "fecha": "2026-09-20",
+          "TS": 17.59,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 0.94,
+          "indice_pi": 0.29367011435674406
+        },
+        {
+          "fecha": "2026-09-21",
+          "TS": 18.01,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 1.89,
+          "indice_pi": 0.842306863238175
+        },
+        {
+          "fecha": "2026-09-22",
+          "TS": 18.27,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 1.83,
+          "indice_pi": 1.0681186843854995
+        },
+        {
+          "fecha": "2026-09-23",
+          "TS": 18.23,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 2.96,
+          "indice_pi": 1.0688875451459263
+        },
+        {
+          "fecha": "2026-09-24",
+          "TS": 18.15,
+          "GWETTOP": 0.64,
+          "PRECTOTCORR": 3.74,
+          "indice_pi": 0.5510694782090394
+        },
+        {
+          "fecha": "2026-09-25",
+          "TS": 16.55,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 7.25,
+          "indice_pi": -2.08305731202044
+        },
+        {
+          "fecha": "2026-09-26",
+          "TS": 17.31,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 4.92,
+          "indice_pi": -0.666191265136606
+        },
+        {
+          "fecha": "2026-09-27",
+          "TS": 17.13,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 11.81,
+          "indice_pi": -0.7972088380456224
+        },
+        {
+          "fecha": "2026-09-28",
+          "TS": 16.24,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 12.1,
+          "indice_pi": -1.4074348205845708
+        },
+        {
+          "fecha": "2026-09-29",
+          "TS": 17.42,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 2.01,
+          "indice_pi": 0.17486327984031058
+        },
+        {
+          "fecha": "2026-09-30",
+          "TS": 17.36,
+          "GWETTOP": 0.71,
+          "PRECTOTCORR": 15.46,
+          "indice_pi": 0.3118150848269033
+        },
+        {
+          "fecha": "2026-10-01",
+          "TS": 17.32,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 12.56,
+          "indice_pi": 0.5893864092803478
+        },
+        {
+          "fecha": "2026-10-02",
+          "TS": 17.69,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 15.19,
+          "indice_pi": 1.0447957844509135
+        },
+        {
+          "fecha": "2026-10-03",
+          "TS": 17.42,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 8.82,
+          "indice_pi": 0.41759003884796236
+        },
+        {
+          "fecha": "2026-10-04",
+          "TS": 17.56,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 5.36,
+          "indice_pi": 0.5699918261810912
+        },
+        {
+          "fecha": "2026-10-05",
+          "TS": 17.75,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 5.85,
+          "indice_pi": 1.4816300147291805
+        },
+        {
+          "fecha": "2026-10-06",
+          "TS": 17.78,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 10.62,
+          "indice_pi": 1.1831417084810956
+        },
+        {
+          "fecha": "2026-10-07",
+          "TS": 15.77,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 18.75,
+          "indice_pi": -2.200979954652207
+        },
+        {
+          "fecha": "2026-10-08",
+          "TS": 16.95,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 6.19,
+          "indice_pi": -0.4492880150933604
+        },
+        {
+          "fecha": "2026-10-09",
+          "TS": 17.83,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 16.27,
+          "indice_pi": 0.7268898028200156
+        },
+        {
+          "fecha": "2026-10-10",
+          "TS": 18.29,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 23.87,
+          "indice_pi": 1.050793184384806
+        },
+        {
+          "fecha": "2026-10-11",
+          "TS": 18.04,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 15.64,
+          "indice_pi": 0.6412592472682038
+        },
+        {
+          "fecha": "2026-10-12",
+          "TS": 16.73,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 9.59,
+          "indice_pi": -0.6825120504233316
+        },
+        {
+          "fecha": "2026-10-13",
+          "TS": 16.41,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 12.01,
+          "indice_pi": -0.7885894013470142
+        },
+        {
+          "fecha": "2026-10-14",
+          "TS": 17.42,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 20.81,
+          "indice_pi": 0.05440258166201295
+        },
+        {
+          "fecha": "2026-10-15",
+          "TS": 18.61,
+          "GWETTOP": 0.8,
+          "PRECTOTCORR": 23.28,
+          "indice_pi": 1.2225758448168111
+        },
+        {
+          "fecha": "2026-10-16",
+          "TS": 17.56,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 5.88,
+          "indice_pi": -0.02482605123097101
+        },
+        {
+          "fecha": "2026-10-17",
+          "TS": 17.9,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 4.7,
+          "indice_pi": 0.4940067011214506
+        },
+        {
+          "fecha": "2026-10-18",
+          "TS": 16.99,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 12.44,
+          "indice_pi": -0.515632320730798
+        },
+        {
+          "fecha": "2026-10-19",
+          "TS": 17.69,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 3.8,
+          "indice_pi": 0.2575005339536511
+        },
+        {
+          "fecha": "2026-10-20",
+          "TS": 17.71,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 8.13,
+          "indice_pi": 0.025972322479943057
+        },
+        {
+          "fecha": "2026-10-21",
+          "TS": 16.81,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 18.91,
+          "indice_pi": -1.3435104065341905
+        },
+        {
+          "fecha": "2026-10-22",
+          "TS": 17.93,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 6.79,
+          "indice_pi": 0.9471786984624246
+        },
+        {
+          "fecha": "2026-10-23",
+          "TS": 17.95,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 7.91,
+          "indice_pi": 0.8098758800057229
+        },
+        {
+          "fecha": "2026-10-24",
+          "TS": 17.85,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 13.63,
+          "indice_pi": 0.6199781290532144
+        },
+        {
+          "fecha": "2026-10-25",
+          "TS": 18.12,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 7.46,
+          "indice_pi": 0.9262876524097282
+        },
+        {
+          "fecha": "2026-10-26",
+          "TS": 17.63,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 6.92,
+          "indice_pi": -0.19596282737132606
+        },
+        {
+          "fecha": "2026-10-27",
+          "TS": 17.95,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 2.68,
+          "indice_pi": 0.45864472375680154
+        },
+        {
+          "fecha": "2026-10-28",
+          "TS": 18.33,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 8.49,
+          "indice_pi": 1.6733037554295322
+        },
+        {
+          "fecha": "2026-10-29",
+          "TS": 17.55,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 13.23,
+          "indice_pi": -1.3418714080371885
+        },
+        {
+          "fecha": "2026-10-30",
+          "TS": 17.62,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 4.54,
+          "indice_pi": -0.8435594776254367
+        },
+        {
+          "fecha": "2026-10-31",
+          "TS": 17.53,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 11.46,
+          "indice_pi": -0.9124778072753995
+        },
+        {
+          "fecha": "2026-11-01",
+          "TS": 17.76,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 15.23,
+          "indice_pi": -0.024889795508509022
+        },
+        {
+          "fecha": "2026-11-02",
+          "TS": 17.56,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 6.0,
+          "indice_pi": -0.6712487841357122
+        },
+        {
+          "fecha": "2026-11-03",
+          "TS": 17.38,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 7.73,
+          "indice_pi": -0.9542717590105003
+        },
+        {
+          "fecha": "2026-11-04",
+          "TS": 17.19,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 12.74,
+          "indice_pi": -1.775733311528936
+        },
+        {
+          "fecha": "2026-11-05",
+          "TS": 17.74,
+          "GWETTOP": 0.78,
+          "PRECTOTCORR": 14.79,
+          "indice_pi": 0.9929910494666585
+        },
+        {
+          "fecha": "2026-11-06",
+          "TS": 17.19,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 18.19,
+          "indice_pi": -1.2247598793238865
+        },
+        {
+          "fecha": "2026-11-07",
+          "TS": 17.75,
+          "GWETTOP": 0.8,
+          "PRECTOTCORR": 21.8,
+          "indice_pi": 0.9327864892034294
+        },
+        {
+          "fecha": "2026-11-08",
+          "TS": 17.59,
+          "GWETTOP": 0.79,
+          "PRECTOTCORR": 4.42,
+          "indice_pi": 0.44005190534864647
+        },
+        {
+          "fecha": "2026-11-09",
+          "TS": 17.46,
+          "GWETTOP": 0.77,
+          "PRECTOTCORR": 1.44,
+          "indice_pi": -0.048681040851918
+        },
+        {
+          "fecha": "2026-11-10",
+          "TS": 17.04,
+          "GWETTOP": 0.75,
+          "PRECTOTCORR": 0.32,
+          "indice_pi": -1.3370727863736114
+        },
+        {
+          "fecha": "2026-11-11",
+          "TS": 16.95,
+          "GWETTOP": 0.74,
+          "PRECTOTCORR": 2.25,
+          "indice_pi": -1.3293240702161697
+        },
+        {
+          "fecha": "2026-11-12",
+          "TS": 17.29,
+          "GWETTOP": 0.76,
+          "PRECTOTCORR": 6.26,
+          "indice_pi": -0.11755623001247908
+        }
+      ]
+    },
+    "la_guaira": {
+      "info": {
+        "nombre": "La Guaira y Costa Central (VEN)",
+        "placa": "Interacción Placa del Caribe - Sudamericana",
+        "lat": 10.6,
+        "lon": -66.93,
+        "poblacion": 3544000,
+        "municipios_radio_50km": [
+          "La Guaira / Maiquetía: 379,000 hab. (0.5 km)",
+          "Caracas (Área Metropolitana): 2,946,000 hab. (13.6 km)",
+          "Catia La Mar: 165,000 hab. (11.0 km)",
+          "Caraballeda: 54,000 hab. (8.6 km)"
+        ],
+        "fuente_demografica": "INE"
+      },
+      "fuente_estado": "EN VIVO (NASA POWER)",
+      "estadisticas": {
+        "tendencia_ts": "no trend",
+        "p_value_ts": 0.05333,
+        "significativa_ts": false,
+        "tasa_cambio_ts": 0.00066,
+        "tendencia_humedad": "decreasing",
+        "p_value_humedad": 0.0,
+        "pi_actual": 0.03,
+        "alerta_derrumbe": "BAJA",
+        "en_alerta_activa": false,
+        "lluvia_72h_mm": 6.87,
+        "humedad_max_72h": 0.56,
+        "delta_temp_72h": -0.48,
+        "sismos_72h_radio_150km": 0,
+        "sismo_mas_cercano_km": 1054.7,
+        "fecha_ultimo_dato_nasa": "2026-11-12"
+      },
+      "serie": [
+        {
+          "fecha": "2026-07-16",
+          "TS": 25.11,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 3.99,
+          "indice_pi": 1.030426929477499
+        },
+        {
+          "fecha": "2026-07-17",
+          "TS": 24.92,
+          "GWETTOP": 0.62,
+          "PRECTOTCORR": 4.54,
+          "indice_pi": 0.1198497673594346
+        },
+        {
+          "fecha": "2026-07-18",
+          "TS": 24.24,
+          "GWETTOP": 0.69,
+          "PRECTOTCORR": 7.97,
+          "indice_pi": -1.6694418132988667
+        },
+        {
+          "fecha": "2026-07-19",
+          "TS": 24.52,
+          "GWETTOP": 0.68,
+          "PRECTOTCORR": 5.39,
+          "indice_pi": -0.7965494342006925
+        },
+        {
+          "fecha": "2026-07-20",
+          "TS": 24.4,
+          "GWETTOP": 0.66,
+          "PRECTOTCORR": 0.69,
+          "indice_pi": -0.9832678660788757
+        },
+        {
+          "fecha": "2026-07-21",
+          "TS": 24.53,
+          "GWETTOP": 0.65,
+          "PRECTOTCORR": 0.18,
+          "indice_pi": -0.45908772125927283
+        },
+        {
+          "fecha": "2026-07-22",
+          "TS": 25.52,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 0.12,
+          "indice_pi": 1.7001515491840453
+        },
+        {
+          "fecha": "2026-07-23",
+          "TS": 25.21,
+          "GWETTOP": 0.62,
+          "PRECTOTCORR": 0.33,
+          "indice_pi": 0.9547076601171834
+        },
+        {
+          "fecha": "2026-07-24",
+          "TS": 25.27,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 0.51,
+          "indice_pi": 0.9049398372723588
+        },
+        {
+          "fecha": "2026-07-25",
+          "TS": 25.75,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 1.63,
+          "indice_pi": 1.3337373504556838
+        },
+        {
+          "fecha": "2026-07-26",
+          "TS": 25.97,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 2.33,
+          "indice_pi": 1.2462922617077687
+        },
+        {
+          "fecha": "2026-07-27",
+          "TS": 25.61,
+          "GWETTOP": 0.63,
+          "PRECTOTCORR": 1.39,
+          "indice_pi": 0.4302160874028193
+        },
+        {
+          "fecha": "2026-07-28",
+          "TS": 25.97,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 0.64,
+          "indice_pi": 1.1618907873996989
+        },
+        {
+          "fecha": "2026-07-29",
+          "TS": 25.81,
+          "GWETTOP": 0.61,
+          "PRECTOTCORR": 1.01,
+          "indice_pi": 0.4963327538914886
+        },
+        {
+          "fecha": "2026-07-30",
+          "TS": 25.82,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 0.3,
+          "indice_pi": 0.3171700163383824
+        },
+        {
+          "fecha": "2026-07-31",
+          "TS": 26.08,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 0.44,
+          "indice_pi": 1.394473685511476
+        },
+        {
+          "fecha": "2026-08-01",
+          "TS": 26.67,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.24,
+          "indice_pi": 2.0243714490353937
+        },
+        {
+          "fecha": "2026-08-02",
+          "TS": 26.36,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.24,
+          "indice_pi": 0.8651678111629415
+        },
+        {
+          "fecha": "2026-08-03",
+          "TS": 26.07,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.53,
+          "indice_pi": -0.13414334465820318
+        },
+        {
+          "fecha": "2026-08-04",
+          "TS": 26.18,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.24,
+          "indice_pi": 0.12731789340290126
+        },
+        {
+          "fecha": "2026-08-05",
+          "TS": 26.37,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.36,
+          "indice_pi": 0.5435424590666187
+        },
+        {
+          "fecha": "2026-08-06",
+          "TS": 26.0,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.19,
+          "indice_pi": -1.051365811427229
+        },
+        {
+          "fecha": "2026-08-07",
+          "TS": 25.31,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.05,
+          "indice_pi": -1.9343032383421481
+        },
+        {
+          "fecha": "2026-08-08",
+          "TS": 25.53,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.29,
+          "indice_pi": -1.0903625671389983
+        },
+        {
+          "fecha": "2026-08-09",
+          "TS": 26.62,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.37,
+          "indice_pi": 1.33082119116168
+        },
+        {
+          "fecha": "2026-08-10",
+          "TS": 26.89,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.16,
+          "indice_pi": 1.3435513765537985
+        },
+        {
+          "fecha": "2026-08-11",
+          "TS": 27.24,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.13,
+          "indice_pi": 1.357826075426337
+        },
+        {
+          "fecha": "2026-08-12",
+          "TS": 26.45,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.3,
+          "indice_pi": 0.22354390973526156
+        },
+        {
+          "fecha": "2026-08-13",
+          "TS": 26.69,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.47,
+          "indice_pi": 0.4225072741317999
+        },
+        {
+          "fecha": "2026-08-14",
+          "TS": 25.78,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.8,
+          "indice_pi": -1.1184825317272513
+        },
+        {
+          "fecha": "2026-08-15",
+          "TS": 26.44,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 1.08,
+          "indice_pi": -0.3261072511110229
+        },
+        {
+          "fecha": "2026-08-16",
+          "TS": 25.56,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 2.0,
+          "indice_pi": -1.4749788987813048
+        },
+        {
+          "fecha": "2026-08-17",
+          "TS": 26.17,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.99,
+          "indice_pi": -0.28901385517664213
+        },
+        {
+          "fecha": "2026-08-18",
+          "TS": 26.04,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 1.47,
+          "indice_pi": -0.30321067808342894
+        },
+        {
+          "fecha": "2026-08-19",
+          "TS": 27.05,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.25,
+          "indice_pi": 1.5464636181831595
+        },
+        {
+          "fecha": "2026-08-20",
+          "TS": 26.65,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.51,
+          "indice_pi": 0.7954106532724202
+        },
+        {
+          "fecha": "2026-08-21",
+          "TS": 26.04,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.8,
+          "indice_pi": -0.49369838193486615
+        },
+        {
+          "fecha": "2026-08-22",
+          "TS": 26.39,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.84,
+          "indice_pi": 0.24660622099308802
+        },
+        {
+          "fecha": "2026-08-23",
+          "TS": 26.06,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.71,
+          "indice_pi": -0.7344491196578278
+        },
+        {
+          "fecha": "2026-08-24",
+          "TS": 26.15,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 1.14,
+          "indice_pi": -0.4913427969280252
+        },
+        {
+          "fecha": "2026-08-25",
+          "TS": 26.39,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 1.52,
+          "indice_pi": 9.777288142425313e-15
+        },
+        {
+          "fecha": "2026-08-26",
+          "TS": 25.87,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 3.04,
+          "indice_pi": -1.3156710685077708
+        },
+        {
+          "fecha": "2026-08-27",
+          "TS": 25.36,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 3.05,
+          "indice_pi": -1.916856406466953
+        },
+        {
+          "fecha": "2026-08-28",
+          "TS": 26.44,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 1.1,
+          "indice_pi": 0.8985547658736551
+        },
+        {
+          "fecha": "2026-08-29",
+          "TS": 26.92,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.49,
+          "indice_pi": 1.529656905840601
+        },
+        {
+          "fecha": "2026-08-30",
+          "TS": 27.2,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.35,
+          "indice_pi": 1.398877472771559
+        },
+        {
+          "fecha": "2026-08-31",
+          "TS": 26.53,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.92,
+          "indice_pi": 0.23122103204724456
+        },
+        {
+          "fecha": "2026-09-01",
+          "TS": 26.33,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 1.2,
+          "indice_pi": -0.0785681193685269
+        },
+        {
+          "fecha": "2026-09-02",
+          "TS": 26.5,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 0.51,
+          "indice_pi": 0.05453843328123762
+        },
+        {
+          "fecha": "2026-09-03",
+          "TS": 26.27,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.11,
+          "indice_pi": -0.9726571595735914
+        },
+        {
+          "fecha": "2026-09-04",
+          "TS": 25.94,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 0.17,
+          "indice_pi": -1.398525594776384
+        },
+        {
+          "fecha": "2026-09-05",
+          "TS": 26.98,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 0.17,
+          "indice_pi": 1.0339817997890939
+        },
+        {
+          "fecha": "2026-09-06",
+          "TS": 27.59,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.14,
+          "indice_pi": 1.8456832738974676
+        },
+        {
+          "fecha": "2026-09-07",
+          "TS": 27.2,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.23,
+          "indice_pi": 0.8755298978019092
+        },
+        {
+          "fecha": "2026-09-08",
+          "TS": 26.5,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.26,
+          "indice_pi": -0.36972627280642073
+        },
+        {
+          "fecha": "2026-09-09",
+          "TS": 27.04,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 0.23,
+          "indice_pi": 0.4372741659905735
+        },
+        {
+          "fecha": "2026-09-10",
+          "TS": 26.09,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 0.55,
+          "indice_pi": -1.1116563047342405
+        },
+        {
+          "fecha": "2026-09-11",
+          "TS": 25.56,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 0.45,
+          "indice_pi": -1.6387870159766784
+        },
+        {
+          "fecha": "2026-09-12",
+          "TS": 25.96,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 0.55,
+          "indice_pi": -0.8147036961145232
+        },
+        {
+          "fecha": "2026-09-13",
+          "TS": 26.54,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 0.15,
+          "indice_pi": 0.21628780308985263
+        },
+        {
+          "fecha": "2026-09-14",
+          "TS": 26.46,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 0.14,
+          "indice_pi": 0.31899015439702744
+        },
+        {
+          "fecha": "2026-09-15",
+          "TS": 26.73,
+          "GWETTOP": 0.53,
+          "PRECTOTCORR": 0.1,
+          "indice_pi": 0.7769499833479464
+        },
+        {
+          "fecha": "2026-09-16",
+          "TS": 26.94,
+          "GWETTOP": 0.52,
+          "PRECTOTCORR": 0.11,
+          "indice_pi": 1.2807019181854784
+        },
+        {
+          "fecha": "2026-09-17",
+          "TS": 27.63,
+          "GWETTOP": 0.5,
+          "PRECTOTCORR": 0.08,
+          "indice_pi": 1.620211365954438
+        },
+        {
+          "fecha": "2026-09-18",
+          "TS": 27.16,
+          "GWETTOP": 0.49,
+          "PRECTOTCORR": 0.14,
+          "indice_pi": 0.7189085136566102
+        },
+        {
+          "fecha": "2026-09-19",
+          "TS": 27.52,
+          "GWETTOP": 0.48,
+          "PRECTOTCORR": 0.32,
+          "indice_pi": 1.1353309096498256
+        },
+        {
+          "fecha": "2026-09-20",
+          "TS": 27.48,
+          "GWETTOP": 0.48,
+          "PRECTOTCORR": 0.15,
+          "indice_pi": 0.7891950502787799
+        },
+        {
+          "fecha": "2026-09-21",
+          "TS": 27.25,
+          "GWETTOP": 0.47,
+          "PRECTOTCORR": 0.07,
+          "indice_pi": 0.017434201093875175
+        },
+        {
+          "fecha": "2026-09-22",
+          "TS": 27.13,
+          "GWETTOP": 0.46,
+          "PRECTOTCORR": 0.06,
+          "indice_pi": -0.690065559343874
+        },
+        {
+          "fecha": "2026-09-23",
+          "TS": 26.4,
+          "GWETTOP": 0.45,
+          "PRECTOTCORR": 0.5,
+          "indice_pi": -2.0084910027401777
+        },
+        {
+          "fecha": "2026-09-24",
+          "TS": 26.36,
+          "GWETTOP": 0.46,
+          "PRECTOTCORR": 0.71,
+          "indice_pi": -1.4329478860255764
+        },
+        {
+          "fecha": "2026-09-25",
+          "TS": 26.59,
+          "GWETTOP": 0.47,
+          "PRECTOTCORR": 0.67,
+          "indice_pi": -0.7410104464687663
+        },
+        {
+          "fecha": "2026-09-26",
+          "TS": 27.17,
+          "GWETTOP": 0.47,
+          "PRECTOTCORR": 0.25,
+          "indice_pi": 0.5730756609879953
+        },
+        {
+          "fecha": "2026-09-27",
+          "TS": 27.3,
+          "GWETTOP": 0.46,
+          "PRECTOTCORR": 0.35,
+          "indice_pi": 0.9929022885836891
+        },
+        {
+          "fecha": "2026-09-28",
+          "TS": 26.5,
+          "GWETTOP": 0.46,
+          "PRECTOTCORR": 0.45,
+          "indice_pi": -0.6891850684872853
+        },
+        {
+          "fecha": "2026-09-29",
+          "TS": 26.69,
+          "GWETTOP": 0.46,
+          "PRECTOTCORR": 0.25,
+          "indice_pi": -0.06884854614925734
+        },
+        {
+          "fecha": "2026-09-30",
+          "TS": 26.81,
+          "GWETTOP": 0.46,
+          "PRECTOTCORR": 0.52,
+          "indice_pi": 0.10294314748867793
+        },
+        {
+          "fecha": "2026-10-01",
+          "TS": 25.22,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 6.75,
+          "indice_pi": -2.0439044499773744
+        },
+        {
+          "fecha": "2026-10-02",
+          "TS": 25.39,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 3.73,
+          "indice_pi": -1.2754395384073312
+        },
+        {
+          "fecha": "2026-10-03",
+          "TS": 25.23,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 2.12,
+          "indice_pi": -1.0819971560726152
+        },
+        {
+          "fecha": "2026-10-04",
+          "TS": 24.61,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 3.96,
+          "indice_pi": -1.3427294598992965
+        },
+        {
+          "fecha": "2026-10-05",
+          "TS": 25.24,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 2.41,
+          "indice_pi": -0.43444400432493885
+        },
+        {
+          "fecha": "2026-10-06",
+          "TS": 25.35,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 7.09,
+          "indice_pi": -0.0851623666895426
+        },
+        {
+          "fecha": "2026-10-07",
+          "TS": 24.93,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 3.19,
+          "indice_pi": -0.7564969934004026
+        },
+        {
+          "fecha": "2026-10-08",
+          "TS": 25.0,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 1.01,
+          "indice_pi": -0.3862235537651281
+        },
+        {
+          "fecha": "2026-10-09",
+          "TS": 25.3,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 4.07,
+          "indice_pi": 0.7795979880930625
+        },
+        {
+          "fecha": "2026-10-10",
+          "TS": 25.3,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 7.06,
+          "indice_pi": 0.7219264046710274
+        },
+        {
+          "fecha": "2026-10-11",
+          "TS": 24.96,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 5.04,
+          "indice_pi": -1.0642227017772559
+        },
+        {
+          "fecha": "2026-10-12",
+          "TS": 24.52,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 0.71,
+          "indice_pi": -1.80363768862447
+        },
+        {
+          "fecha": "2026-10-13",
+          "TS": 24.29,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 2.92,
+          "indice_pi": -1.6197227425193015
+        },
+        {
+          "fecha": "2026-10-14",
+          "TS": 24.84,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 1.67,
+          "indice_pi": -0.12506431680433513
+        },
+        {
+          "fecha": "2026-10-15",
+          "TS": 25.32,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 5.02,
+          "indice_pi": 0.9424106142760432
+        },
+        {
+          "fecha": "2026-10-16",
+          "TS": 25.5,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 4.06,
+          "indice_pi": 1.2074632934594367
+        },
+        {
+          "fecha": "2026-10-17",
+          "TS": 25.33,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 0.53,
+          "indice_pi": 0.8095999659539924
+        },
+        {
+          "fecha": "2026-10-18",
+          "TS": 24.6,
+          "GWETTOP": 0.53,
+          "PRECTOTCORR": 0.87,
+          "indice_pi": -0.6675427913042329
+        },
+        {
+          "fecha": "2026-10-19",
+          "TS": 25.28,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 2.72,
+          "indice_pi": 0.5689189563986571
+        },
+        {
+          "fecha": "2026-10-20",
+          "TS": 25.71,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 3.99,
+          "indice_pi": 1.2697757335672626
+        },
+        {
+          "fecha": "2026-10-21",
+          "TS": 25.07,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 3.5,
+          "indice_pi": -0.5367036294024828
+        },
+        {
+          "fecha": "2026-10-22",
+          "TS": 25.32,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 1.66,
+          "indice_pi": 0.174835273214445
+        },
+        {
+          "fecha": "2026-10-23",
+          "TS": 25.04,
+          "GWETTOP": 0.52,
+          "PRECTOTCORR": 0.02,
+          "indice_pi": -0.44753815783162093
+        },
+        {
+          "fecha": "2026-10-24",
+          "TS": 25.64,
+          "GWETTOP": 0.49,
+          "PRECTOTCORR": 0.3,
+          "indice_pi": 1.0595739936347852
+        },
+        {
+          "fecha": "2026-10-25",
+          "TS": 25.82,
+          "GWETTOP": 0.48,
+          "PRECTOTCORR": 1.03,
+          "indice_pi": 1.3045948386145934
+        },
+        {
+          "fecha": "2026-10-26",
+          "TS": 25.81,
+          "GWETTOP": 0.51,
+          "PRECTOTCORR": 6.2,
+          "indice_pi": 0.9520931989946924
+        },
+        {
+          "fecha": "2026-10-27",
+          "TS": 25.32,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 5.92,
+          "indice_pi": -0.3394632162357086
+        },
+        {
+          "fecha": "2026-10-28",
+          "TS": 25.43,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 3.79,
+          "indice_pi": -0.18359099127580647
+        },
+        {
+          "fecha": "2026-10-29",
+          "TS": 25.67,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 3.68,
+          "indice_pi": 0.48071358812715814
+        },
+        {
+          "fecha": "2026-10-30",
+          "TS": 25.07,
+          "GWETTOP": 0.6,
+          "PRECTOTCORR": 15.4,
+          "indice_pi": -1.6879606878194933
+        },
+        {
+          "fecha": "2026-10-31",
+          "TS": 25.05,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 2.31,
+          "indice_pi": -1.236838139825441
+        },
+        {
+          "fecha": "2026-11-01",
+          "TS": 25.47,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 3.9,
+          "indice_pi": 0.23627041558805761
+        },
+        {
+          "fecha": "2026-11-02",
+          "TS": 25.27,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 5.61,
+          "indice_pi": -0.25136192815530306
+        },
+        {
+          "fecha": "2026-11-03",
+          "TS": 25.61,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 3.41,
+          "indice_pi": 0.9866172366502767
+        },
+        {
+          "fecha": "2026-11-04",
+          "TS": 25.21,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 4.42,
+          "indice_pi": -0.5012746580198348
+        },
+        {
+          "fecha": "2026-11-05",
+          "TS": 25.59,
+          "GWETTOP": 0.57,
+          "PRECTOTCORR": 6.15,
+          "indice_pi": 1.1340901218528792
+        },
+        {
+          "fecha": "2026-11-06",
+          "TS": 25.47,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 9.24,
+          "indice_pi": 0.4229807876021128
+        },
+        {
+          "fecha": "2026-11-07",
+          "TS": 25.01,
+          "GWETTOP": 0.59,
+          "PRECTOTCORR": 9.55,
+          "indice_pi": -1.6607045568644956
+        },
+        {
+          "fecha": "2026-11-08",
+          "TS": 24.57,
+          "GWETTOP": 0.58,
+          "PRECTOTCORR": 3.52,
+          "indice_pi": -1.8366759222325695
+        },
+        {
+          "fecha": "2026-11-09",
+          "TS": 25.48,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 1.61,
+          "indice_pi": 0.5349028482239807
+        },
+        {
+          "fecha": "2026-11-10",
+          "TS": 25.72,
+          "GWETTOP": 0.55,
+          "PRECTOTCORR": 1.57,
+          "indice_pi": 1.0754212957617657
+        },
+        {
+          "fecha": "2026-11-11",
+          "TS": 25.11,
+          "GWETTOP": 0.56,
+          "PRECTOTCORR": 4.62,
+          "indice_pi": -0.41888680824055136
+        },
+        {
+          "fecha": "2026-11-12",
+          "TS": 25.24,
+          "GWETTOP": 0.54,
+          "PRECTOTCORR": 0.68,
+          "indice_pi": 0.030209981081819465
+        }
+      ]
+    }
+  }
+}
